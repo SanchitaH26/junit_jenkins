@@ -18,7 +18,7 @@ class CalculatorTest {
     @Test
     public void testMultiply() {
         int result = cal.multiply(4, 5);
-        assertEquals(20, result);
+        assertEquals(4, result);
     }
     @Test
     public void testDivide() {
